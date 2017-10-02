@@ -1,0 +1,13 @@
+
+plugin.tx_nsstatcounter_nsstatcounter {
+  settings {
+    # cat=plugin.tx_nsstatcounter_nsstatcounter/01; type=string; label=Add Project Id
+    sc_project = 
+    # cat=plugin.tx_nsstatcounter_nsstatcounter/02; type=string; label=Add Security key
+    sc_security = 
+    # cat=plugin.tx_nsstatcounter_nsstatcounter/03; type=options[Add At Header=1,Add At Footer=2]; label=Add Position
+    position = 1
+    # cat=plugin.tx_nsstatcounter_nsstatcounter/04; type=boolean; label=Hide in Page
+    visiblity = 0
+  }
+}
