@@ -1,6 +1,5 @@
 <?php
 namespace Nitsan\NsStatcounter\Controller;
-use TYPO3\CMS\Extbase\Utility\DebuggerUtility as debug;
 
 use TYPO3\CMS\Core\Utility\GeneralUtility;
 use TYPO3\CMS\Core\Page\PageRenderer;
@@ -12,7 +11,7 @@ use TYPO3\CMS\Core\Page\PageRenderer;
  * For the full copyright and license information, please read the
  * LICENSE.txt file that was distributed with this source code.
  *
- *  (c) 2017
+ *  (c) 2018
  *
  ***/
 
@@ -30,10 +29,10 @@ class StatcounterController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionCont
     public function listAction()
     {
         $settings = $this->settings;
-        $project = $settings[sc_project];
-        $secret = $settings[sc_security];
-        $position = $settings[position];
-        $visiblity = $settings[visiblity];
+        $project = $settings['sc_project'];
+        $secret = $settings['sc_security'];
+        $position = $settings['position'];
+        $visiblity = $settings['visiblity'];
         $pageRenderer = GeneralUtility::makeInstance(PageRenderer::class);
 
         if($position==1) {

@@ -9,7 +9,7 @@ ext:ns_statcounter
 ===================
 
 .. figure:: Images/TYPO3_API_StatCounter_NITSAN_Banner_Preview.jpg
-   :alt: TYPO3 EXT All_In_One_Lightbx Banner
+   :alt: TYPO3 EXT TYPO3_API_StatCounter_NITSAN_Banner_Preview Banner
    :width: 1000px
 
 .. _What-does-it-do:

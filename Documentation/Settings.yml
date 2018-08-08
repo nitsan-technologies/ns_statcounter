@@ -7,7 +7,7 @@ conf.py:
   copyright: 2017
   project: [NITSAN] StatCounter – Free Real Time Visitor Stat 
   version: 1.2
-  release: 1.0.2
+  release: 1.2.0
   latex_documents:
   - - Index
     - ns_statcounter.tex
