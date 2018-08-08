@@ -1,7 +1,7 @@
 {
   "name": "nitsan/ns-statcounter",
   "type": "typo3-cms-extension",
-  "description": "StatCounter TYPO3 Extension brings you all the powerful StatCounter features to your TYPO3 site",
+  "description": "StatCounter TYPO3 Extension brings you all the powerful StatCounter features to your TYPO3 site.",
   "homepage": "https://extensions.typo3.org/extension/ns_statcounter/",
   "license": "GPL-2.0+",
   "keywords": [
