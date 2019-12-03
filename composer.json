@@ -1,7 +1,7 @@
 {
   "name": "nitsan/ns-statcounter",
   "type": "typo3-cms-extension",
-  "description": "StatCounter TYPO3 Extension brings you all the powerful StatCounter features to your TYPO3 site.",
+  "description": "Statcounter extension brings you all the powerful StatCounter.com (free real time visitor stats) features to your TYPO3 site. Live-Demo: https://demo.t3terminal.com/t3t-extensions/ You can download PRO version for more-features & free-support at https://t3terminal.com/typo3-statcounter-plugin-free/",
   "homepage": "https://extensions.typo3.org/extension/ns_statcounter/",
   "license": "GPL-2.0+",
   "keywords": [
@@ -15,7 +15,7 @@
     "issues": "https://github.com/nitsan-technologies/ns_statcounter/issues"
   },
   "require": {
-    "typo3/cms-core": ">=6.2.0"
+    "typo3/cms-core": ">=6.0.0"
   },
   "autoload": {
     "psr-4": {
@@ -23,7 +23,6 @@
     }
   },
   "replace": {
-      "ns_statcounter": "self.version",
       "nitsan/ns-statcounter": "self.version"
   },
   "config": {
