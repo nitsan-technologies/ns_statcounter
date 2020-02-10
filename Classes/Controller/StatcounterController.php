@@ -48,6 +48,12 @@ class StatcounterController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionCont
             scJsHost+
             "statcounter.com/counter/counter.js></"+"script>");
             </script>
+            <noscript>
+                <div class="statcounter">
+                    <a title="Web Analytics" href="https://statcounter.com/" target="_blank"><img class="statcounter" src="https://c.statcounter.com/12185928/0/1b89833e/0/" alt="WebAnalytics">
+                    </a>
+                </div>
+            </noscript>
             ');
 
         } else {
@@ -64,6 +70,12 @@ class StatcounterController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionCont
             scJsHost+
             "statcounter.com/counter/counter.js></"+"script>");
             </script>
+            <noscript>
+                <div class="statcounter">
+                    <a title="Web Analytics" href="https://statcounter.com/" target="_blank"><img class="statcounter" src="https://c.statcounter.com/12185928/0/1b89833e/0/" alt="WebAnalytics">
+                    </a>
+                </div>
+            </noscript>
             ');
         }
     }
