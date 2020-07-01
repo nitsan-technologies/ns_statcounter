@@ -1,8 +1,8 @@
 <?php
 namespace Nitsan\NsStatcounter\Controller;
 
-use TYPO3\CMS\Core\Utility\GeneralUtility;
 use TYPO3\CMS\Core\Page\PageRenderer;
+use TYPO3\CMS\Core\Utility\GeneralUtility;
 
 /***
  *
@@ -20,7 +20,7 @@ use TYPO3\CMS\Core\Page\PageRenderer;
  */
 class StatcounterController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionController
 {
-    
+
     /**
      * action list
      *
@@ -35,13 +35,12 @@ class StatcounterController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionCont
         $visiblity = $settings['visiblity'];
         $pageRenderer = GeneralUtility::makeInstance(PageRenderer::class);
 
-        if($position==1) {
-
+        if ($position==1) {
             $pageRenderer->addHeaderData('
             <script type="text/javascript">
-            var sc_project='.$project.'; 
-            var sc_invisible='.$visiblity.'; 
-            var sc_security="'.$secret.'"; 
+            var sc_project=' . $project . '; 
+            var sc_invisible=' . $visiblity . '; 
+            var sc_security="' . $secret . '"; 
             var scJsHost = (("https:" == document.location.protocol) ?
             "https://secure." : "http://www.");
             document.write("<sc"+"ript type=text/javascript src=" +
@@ -55,15 +54,12 @@ class StatcounterController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionCont
                 </div>
             </noscript>
             ');
-
         } else {
-            
-
-           $pageRenderer->addFooterData('
+            $pageRenderer->addFooterData('
             <script type="text/javascript">
-            var sc_project='.$project.'; 
-            var sc_invisible='.$visiblity.'; 
-            var sc_security="'.$secret.'"; 
+            var sc_project=' . $project . '; 
+            var sc_invisible=' . $visiblity . '; 
+            var sc_security="' . $secret . '"; 
             var scJsHost = (("https:" == document.location.protocol) ?
             "https://secure." : "http://www.");
             document.write("<sc"+"ript type=text/javascript src=" +

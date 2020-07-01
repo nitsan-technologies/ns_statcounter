@@ -1,0 +1,26 @@
+plugin.tx_nsstatcounter_nsstatcounter {
+    settings {
+        sc_project = {$plugin.tx_nsstatcounter_nsstatcounter.settings.sc_project}
+        sc_security = {$plugin.tx_nsstatcounter_nsstatcounter.settings.sc_security}
+        position = {$plugin.tx_nsstatcounter_nsstatcounter.settings.position}
+        visiblity = {$plugin.tx_nsstatcounter_nsstatcounter.settings.visiblity}
+    }
+}
+
+page.111234 >
+page.111234 = USER
+page.111234 {
+    userFunc = TYPO3\CMS\Extbase\Core\Bootstrap->run
+    pluginName = Nsstatcounter
+    extensionName = NsStatcounter
+    controller = Statcounter
+    vendorName = Nitsan
+    action = list
+    switchableControllerActions {
+        Statcounter {
+            1 = list
+        }
+    }
+
+    settings =< plugin.tx_nsstatcounter_nsstatcounter.settings
+}
