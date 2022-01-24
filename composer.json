@@ -23,7 +23,7 @@
     }
   },
   "replace": {
-      "nitsan/ns-statcounter": "self.version"
+      "typo3-ter/ns-statcounter": "self.version"
   },
   "config": {
     "vendor-dir": ".Build/vendor/",
