@@ -1,12 +1,12 @@
 <?php
 
 $EM_CONF[$_EXTKEY] = [
-    'title' => 'StatCounter.com Plugin',
-    'description' => 'Statcounter extension brings you all the powerful StatCounter.com (free real time visitor stats) features to your TYPO3 site.',
+    'title' => 'TYPO3 StatCounter Plugin',
+    'description' => 'Easily integrate StatCounter.com’s free real-time visitor tracking into your TYPO3 website. Access in-depth analytics and live stats effortlessly.',
     'category' => 'plugin',
-    'author' => 'T3Planet // NITSAN',
-    'author_email' => 'sanjay@nitsan.in',
-    'author_company' => 'T3Planet // NITSAN',
+    'author' => 'Team T3Planet',
+    'author_email' => 'info@t3planet.de',
+    'author_company' => 'T3Planet',
     'state' => 'stable',
     'internal' => '',
     'uploadfolder' => '0',
